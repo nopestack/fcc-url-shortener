@@ -1,0 +1,20 @@
+{
+    "name": "urly",
+    "version": "1.0.0",
+    "description": "A url shortener service",
+    "main": "index.js",
+    "author": "nopestack",
+    "license": "MIT",
+    "private": true,
+    "scripts": {
+        "dev": "DEBUG=true nodemon index.js",
+        "start": "node index.js"
+    },
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "express": "^4.17.0"
+    },
+    "devDependencies": {
+        "nodemon": "^1.19.0"
+    }
+}
